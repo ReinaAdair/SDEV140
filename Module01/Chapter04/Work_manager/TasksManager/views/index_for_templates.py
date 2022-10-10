@@ -4,7 +4,7 @@ from django.shortcuts import render
 View for index page. 
 """
 
-def page(request):
+def public_index(request):
 	my_variable = "Hello World !"
 	my_hello = "hello WORLD"
 	years_old = 15
